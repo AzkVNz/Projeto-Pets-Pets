@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/css.css">
+    <title>Banho e Tosa Pets & Pets</title>
+</head>
+<body>
+<div class="box">
+   
+    <form action="">
+        <fieldset>
+            <legend><b>Formulário de Clientes</b></legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="nomeResp" id="nomeResp" class="inputUser" required>
+                <label for="nomeResp" class="labelInput">Nome do responsável</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="nomePet" id="nomePet" class="inputUser" required>
+                <label for="nomePet" class="labelInput">Nome do pet</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="raca" id="raca" class="inputUser" required>
+                <label for="raca" class="labelInput">Raça do pet</label>
+                <br>
+            </div>
+            <p>Você quer:</p>
+            <input type="radio" id="tosa" name="animal" value="tosa" required>
+            <label for="tosa">Tosa</label>
+            <br>
+            <input type="radio" id="banho" name="animal" value="banho" required>
+            <label for="banho">Banho</label>
+            <br><br>
+            <label for="data_agendamento"><b>Escolha a data e a hora de agendamento</b></label>
+            <br><br>
+            <input type="datetime-local" name="data_agendamento" id="data_agendamento" required>
+            <br><br>
+
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
