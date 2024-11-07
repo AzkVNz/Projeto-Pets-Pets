@@ -122,3 +122,30 @@ legend{
     background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19,195));
 }
 
+/* adm parte */
+
+.adm{
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    height: 340px;
+    
+
+}
+
+.botadm{
+
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+
+}
