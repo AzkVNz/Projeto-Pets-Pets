@@ -2,6 +2,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue; 
+    border-radius: 5px;
+}
+
+
+
 
 /*Incio da pagina*/
 
@@ -23,13 +33,6 @@ body{
     
 }
 
-legend{
-    border: 1px solid dodgerblue;
-    padding: 10px;
-    text-align: center;
-    background-color: dodgerblue; 
-    border-radius: 5px;
-}
 
 .botinc{
     height: 50px;
@@ -54,18 +57,6 @@ legend{
     width: 20%;
 }
 
-fieldset{
-    border: 3px solid dodgerblue;
-}
-
-legend{
-    border: 1px solid dodgerblue;
-    padding: 10px;
-    text-align: center;
-    background-color: dodgerblue;
-    
-    border-radius: 5px;
-}
 
 .inputBox{
     position: relative;   
@@ -149,3 +140,30 @@ legend{
     margin: 15px;
 
 }
+
+/*Lista de clientes  */
+
+.list{
+    background-color: white;
+}
+
+
+.listaClientesCadastrados{
+    
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(104, 18, 18, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 450px;
+    max-height: fit-content;
+    max-height: 80vh; 
+    overflow-y: auto; 
+    box-sizing: border-box;
+   
+}
+      
+

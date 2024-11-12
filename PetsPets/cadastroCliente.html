@@ -25,17 +25,24 @@
             </div>
             <br><br>
             <div class="inputBox">
-                <input type="text" name="raca" id="raca" class="inputUser" required>
+                <input type="text" name="servico" id="raca" class="inputUser" required>
                 <label for="raca" class="labelInput">Raça do pet</label>
                 <br>
             </div>
             <p>Você quer:</p>
-            <input type="radio" id="tosa" name="tosa" value="tosa" required>
-            <label for="tosa">Tosa</label>
+            <div>
+                <input type="radio" id="tosa" name="servico" value="tosa" required>
+                <label for="tosa">Tosa</label>
+            </div>
+            <div>
+                <input type="radio" id="banho" name="servico" value="banho" required>
+                <label for="banho">Banho</label>
+            </div>
+            <div>
+                <input type="radio" id="banhoETosa" name="servico" value="banhoETosa" required>
+                <label for="banhoETosa">Banho e Tosa</label>
+            </div>    
             <br>
-            <input type="radio" id="banho" name="banho" value="banho" required>
-            <label for="banho">Banho</label>
-            <br><br>
             <label for="data_agendamento"><b>Escolha a data e a hora de agendamento</b></label>
             <br><br>
             <input type="datetime-local" name="data_agendamento" id="data_agendamento" required>
