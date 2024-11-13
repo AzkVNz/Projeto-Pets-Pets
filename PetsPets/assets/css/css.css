@@ -125,16 +125,16 @@ legend{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 20%;
-    height: 340px;
+    width: 400px;
+    height: 190px;
     
 
 }
 
 .botadm{
 
-    height: 50px;
-    width: 300px;
+    height: 70px;
+    width: 330px;
     border-radius: 5px;
     border: none;
     margin: 15px;
@@ -158,7 +158,7 @@ legend{
     background-color: rgba(104, 18, 18, 0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 450px;
+    width: 700px;
     max-height: fit-content;
     max-height: 80vh; 
     overflow-y: auto; 
@@ -166,4 +166,27 @@ legend{
    
 }
       
+.conteudo{
 
+    padding: 15px 10px;
+}
+
+table{
+    text-align: center;
+    font-size: 13px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: #817f7f; 
+
+}
+
+table td img{
+    width: 20px;
+    padding: 4px 5px;
+   
+
+}
