@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/css.css">
-    <script src="assets/js/js.js"></script>
+    <script src="assets/js/js.js" defer></script>
     <title>Banho e Tosa Pets & Pets</title>
 </head>
 <body>
 <div class="box">
    
-    <form action="cliente">
+    <form id = "form">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
@@ -25,7 +25,7 @@
             </div>
             <br><br>
             <div class="inputBox">
-                <input type="text" name="servico" id="raca" class="inputUser" required>
+                <input type="text" name="raca" id="raca" class="inputUser" required>
                 <label for="raca" class="labelInput">Raça do pet</label>
                 <br>
             </div>
@@ -48,9 +48,15 @@
             <input type="datetime-local" name="data_agendamento" id="data_agendamento" required>
             <br><br>
 
-            <input type="submit" name="submit" id="submit">
+            <input type="submit" id="submit"></input>
+            
         </fieldset>
     </form>
+    <button class="botinicio">
+        <a href="index.html">Voltar ao início</a>
+    </button>
+
 </div>
+
 </body>
 </html>

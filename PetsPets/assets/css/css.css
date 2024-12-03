@@ -94,7 +94,6 @@ legend{
     border-radius: 10px;
     outline: none;
     width: 300px;
-
     font-size: 15px;
 }
 
@@ -111,34 +110,6 @@ legend{
 
 #submit:hover{
     background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19,195));
-}
-
-/* adm parte */
-
-.adm{
-
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
-    border-radius: 15px;
-    width: 400px;
-    height: 190px;
-    
-
-}
-
-.botadm{
-
-    height: 70px;
-    width: 330px;
-    border-radius: 5px;
-    border: none;
-    margin: 15px;
-
 }
 
 /*Lista de clientes  */
@@ -167,8 +138,11 @@ legend{
 }
       
 .conteudo{
-
-    padding: 15px 10px;
+    
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: white;
+    padding: 22px 22px;
 }
 
 table{
@@ -177,6 +151,7 @@ table{
     border-collapse: collapse;
     border: 1px solid #ccc;
     width: 100%;
+    
 }
 
 table th{
@@ -189,4 +164,24 @@ table td img{
     padding: 4px 5px;
    
 
+}
+
+
+button.botinicio a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.botinicio{
+    
+    border: none;
+    display: block;
+    margin: 15px auto 9px auto;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    
+    
 }
